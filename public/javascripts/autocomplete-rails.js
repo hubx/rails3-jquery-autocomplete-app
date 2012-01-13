@@ -62,10 +62,6 @@ $(document).ready(function(){
 						return false;
 					}
 				},
-				focus: function() {
-								// prevent value inserted on focus
-					return false;
-				},
 				select: function( event, ui ) {
 					var terms = split( this.value );
 					// remove the current input
